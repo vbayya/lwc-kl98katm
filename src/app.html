@@ -1,0 +1,29 @@
+<template>
+    <div class="slds-form__item" role="listitem">
+        <fieldset class="slds-form-element slds-form-element_compound slds-form-element_address slds-is-editing slds-form-element_stacked">
+            <div class="slds-form-element__control">
+                <div class="slds-form-element__row addPadding">
+                    <div class="slds-size_1-of-2">
+                        <div class="slds-form-element">
+                            <lightning-input type="number" min="1" value={scheduleEvery} label="Schedule Every" onchange={handleChangescheduleEvery}></lightning-input>
+                            <p>Selected value is: {scheduleEvery}</p>
+                        </div>
+                    </div>
+                    <div class="slds-size_1-of-2">
+                        <div class="slds-form-element">
+                            <lightning-combobox
+                                name="Frequency"
+                                label=""
+                                value={selectedFrequency}
+                                placeholder="Frequency"
+                                options={options}
+                                onchange={handleChangeFrequency} >
+                            </lightning-combobox>
+                            <p>Selected value is: {selectedFrequency}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</template>

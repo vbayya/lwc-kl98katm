@@ -1,0 +1,58 @@
+.THIS .radioButtonFont{
+    font-size: 0.7rem;
+}
+
+.THIS input {
+    font-size: 0.7rem !important;
+}
+
+.THIS .slds-form-element__help {
+    display: none;
+}
+
+.THIS .addPadding {
+    padding-left: var(--lwc-spacingXxSmall,0.25rem);
+}
+
+.THIS .slds-radio {
+    margin-bottom: 1rem;
+}
+
+.THIS .occurences {
+    margin-bottom: 1rem;
+}
+
+.THIS .parentMaintenanceRecord {
+    padding-top: 1.7rem;
+}
+
+.THIS .workRuleDetailsInfo {
+    padding-left: 0.7%;
+}
+
+.THIS .yearRadioMargin {
+    margin-left: 33.33%;
+}
+
+.THIS .endRadioFieldset {
+    margin: -0.25rem 0rem 0rem 0em;
+}
+
+.THIS .maintenanceWorkRuleHeading {
+    padding-left: 0.7rem;
+}
+
+.THIS .slds-form-element__icon {
+    padding : 0;
+}
+
+.THIS .weekdayCheckbox {
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    font-size: 0.7rem;
+}
+
+.THIS .fieldCustom lightning-helptext:before{
+    content: "Work Type ";
+    color: #3e3e3c;
+    font-size: 0.75rem;
+}
